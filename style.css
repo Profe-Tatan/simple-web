@@ -1,0 +1,122 @@
+html {
+    scroll-behavior: smooth;
+    font-family: "Arial";
+  }
+  .main__container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 30px;
+    box-sizing: border-box;
+  }
+  .main__left {
+    width: 60%;
+    height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  h1{
+    font-size: 64px;
+  }
+  
+  .menu a{
+    text-decoration: none;
+    padding: 5px 20px;
+    color: #000;
+    transition: 0.3s ease-in-out;
+    
+    &:hover{
+      background-color: #000;
+      color: #fff;
+    }
+  }
+  
+  #img {
+    width: 50%;
+    background-image: url(https://blush.design/api/download?shareUri=pfkaLhuba&w=800&h=800&fm=png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+  }
+  /* FIN MAIN */
+  
+  /* SECCIÓN 1 */
+  .seccion_1 {
+    height: 100vh;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    box-sizing: border-box;
+  }
+  
+  .txt_1 {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    padding: 100px 30px 30px 0;
+    box-sizing: border-box;
+  }
+  
+  .content p{
+    width: 400px;
+    line-height: 1.6;
+    color: #6d6e71;
+  }
+  
+  .txt_1 a{
+    text-decoration: none;
+    color: #000;
+    border-bottom: 2px solid;
+  }
+  
+  .img_1 {
+    background-image: url(https://images.pexels.com/photos/1509582/pexels-photo-1509582.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 50%;
+    height: 80vh;
+    background-position: center;
+  }
+  
+  .seccion_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .txt_2 {
+    width: 50%;
+    height: 60vh;
+  }
+  .img_2 {
+    background-image: url(https://images.pexels.com/photos/3064258/pexels-photo-3064258.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 50%;
+    height: 100vh;
+    background-position: center;
+  }
+  
+  .seccion_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .txt_3 {
+    width: 50%;
+    height: 60vh;
+  }
+  .img_3 {
+    background-image: url(https://images.pexels.com/photos/3875821/pexels-photo-3875821.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    width: 50%;
+    height: 100vh;
+    background-position: center;
+  }
